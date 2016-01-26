@@ -6,4 +6,5 @@ pkg
 *.gem
 .bundle
 .rvmrc
+.ruby-version
 Gemfile.lock
