@@ -13,6 +13,7 @@ module Hashie
     autoload :DeepMerge,         'hashie/extensions/deep_merge'
     autoload :IgnoreUndeclared,  'hashie/extensions/ignore_undeclared'
     autoload :IndifferentAccess, 'hashie/extensions/indifferent_access'
+    autoload :InsensitiveAccess, 'hashie/extensions/insensitive_access'
     autoload :MergeInitializer,  'hashie/extensions/merge_initializer'
     autoload :MethodAccess,      'hashie/extensions/method_access'
     autoload :MethodQuery,       'hashie/extensions/method_access'
@@ -34,6 +35,7 @@ module Hashie
 
     module Dash
       autoload :IndifferentAccess, 'hashie/extensions/dash/indifferent_access'
+      autoload :InsensitiveAccess, 'hashie/extensions/dash/insensitive_access'
       autoload :PropertyTranslation, 'hashie/extensions/dash/property_translation'
       autoload :Coercion, 'hashie/extensions/dash/coercion'
     end
